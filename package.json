@@ -1,0 +1,20 @@
+{
+  "name": "nodemailerapp",
+  "version": "1.0.0",
+  "description": "App for node mailer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahmed Alfargalla",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "nodemailer": "^6.4.2",
+    "nodemailer-mailgun-transport": "^2.0.0",
+    "nodemon": "^2.0.2"
+  }
+}
